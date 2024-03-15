@@ -3,7 +3,7 @@ import org.junit.Assert;
 
 public class SortingTest {
     /**
-     * Test of insertionSort method, of class Sorting.
+     * Test of insertion sort method, of class Sorting.
      */
     @Test
     public void testInsertionSort() {
@@ -21,7 +21,7 @@ public class SortingTest {
         instance.insertionSort();
         Assert.assertArrayEquals(expResult2, instance.sortingArray);
         Assert.assertEquals(3, instance.comparisonCount);
-
+        
     }
 
     /**
